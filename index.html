@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABJ Construcciones — Tu casa. Tu sueño.</title>
+  <meta name="description" content="ABJ Construcciones — Steel Framing y Wood Framing en Maldonado, Punta del Este y Rocha. Viviendas llave en mano, dirección de obra y diseño personalizado.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-row">
+        <div class="logo-box" title="ABJ Construcciones">
+          <svg width="40" height="40" viewBox="0 0 40 40" style="position:absolute;bottom:8px;">
+            <rect x="6" y="0" width="10" height="10" fill="#E7DFC6" stroke="#1E3A8A" stroke-width="2"/>
+            <rect x="24" y="0" width="10" height="10" fill="#E7DFC6" stroke="#1E3A8A" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="logo-text">ABJ CONSTRUCCIONES</div>
+      </div>
+      
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+      <div class="hero">
+        <h1>Tu casa. Tu sueño.</h1>
+        <p>Construimos hogares con pasión, innovación y confianza.</p>
+        <div class="cta"><a href="proyectos.html">Ver proyectos</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Quiénes somos</h2>
+      <p>En <strong>ABJ Construcciones</strong> transformamos tus ideas en hogares reales. Somos una empresa familiar uruguaya que combina experiencia, compromiso y calidez humana para ofrecer soluciones integrales de construcción.</p>
+      <p>Trabajamos con sistemas modernos como <strong>Steel Framing</strong> y <strong>Wood Framing</strong>, que garantizan rapidez, eficiencia y sustentabilidad. Nuestro objetivo: hacer posible tu casa soñada, con calidad y acompañamiento en cada etapa.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>Steel Framing</h2>
+          <p>El sistema Steel Framing utiliza estructuras de acero galvanizado liviano para viviendas seguras, precisas y duraderas.</p>
+          <ul class="benefits">
+            <li>Construcción en seco, sin fraguado.</li>
+            <li>Estructura liviana y resistente al fuego, humedad y plagas.</li>
+            <li>Hasta un 60% más rápido.</li>
+            <li>Aislamiento térmico y acústico superior.</li>
+            <li>Obra limpia y sustentable.</li>
+          </ul>
+          <img src="images/steel.png" alt="Ficha técnica Steel Framing">
+        </div>
+        <div class="card">
+          <h2>Wood Framing</h2>
+          <p>El sistema Wood Framing se basa en madera tratada: calidez, eficiencia y sustentabilidad con diseño flexible.</p>
+          <ul class="benefits">
+            <li>Material renovable y ecológico.</li>
+            <li>Aislamiento térmico y acústico destacado.</li>
+            <li>Diseño adaptable y ampliaciones fáciles.</li>
+            <li>Obra rápida, seca y de bajo impacto.</li>
+            <li>Estética natural y acogedora.</li>
+          </ul>
+          <img src="images/wood.png" alt="Ficha técnica Wood Framing">
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <h2>Contacto</h2>
+      <p><strong>Zonas de trabajo:</strong> Maldonado, Punta del Este, Rocha y alrededores.</p>
+      <p><strong>Correo:</strong> <a href="mailto:abjconstrucciones@gmail.com">abjconstrucciones@gmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/abj.construcciones" target="_blank" rel="noopener">@abj.construcciones</a></p>
+      <p><strong>WhatsApp / Teléfono:</strong> (+598) 09X XXX XXX</p>
+
+      <!-- Netlify-friendly form -->
+      <form class="form" name="contacto-abj" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+        <input type="hidden" name="form-name" value="contacto-abj">
+        <p style="display:none">
+          <label>No completar: <input name="bot-field" /></label>
+        </p>
+        <label>
+          Nombre y apellido
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Teléfono
+          <input type="tel" name="telefono">
+        </label>
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="5" required></textarea>
+        </label>
+        <button type="submit">Enviar consulta</button>
+        <small class="muted">Al enviar, aceptás ser contactada/o por ABJ Construcciones.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 ABJ Construcciones — Todos los derechos reservados.</p>
+      <p>“Tu casa. Tu sueño.”</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="whatsapp-fab" href="https://wa.me/59800000000?text=Hola%20ABJ%20Construcciones%2C%20vengo%20desde%20la%20web" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <img src="images/whatsapp.svg" alt="WhatsApp">
+  </a>
+</body>
+</html>
